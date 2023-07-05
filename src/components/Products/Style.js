@@ -2,7 +2,6 @@ import styled from "styled-components"
 
 export const Products = styled.div`
     border-radius: 5%;
-    border: 2px solid;
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -21,7 +20,6 @@ export const ImgProducts = styled.img`
     max-height:100%;
     object-fit: cover;
     overflow: hidden;
-    border-bottom: 1px solid;
     position: absolute;
     top: 5%;
     border-radius: 5px;
