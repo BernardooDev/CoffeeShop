@@ -6,8 +6,9 @@ export const ViewProducts = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   background-color: #0C0F14;
+  position: relative;
+  flex-direction: column;
 `;
 
 export const DisplayProduct = styled.div`
@@ -19,7 +20,6 @@ export const DisplayProduct = styled.div`
   position: relative;
   background-color: #282C34;
   border-radius: 20px;
-
 
   svg {
     width: 5%;
@@ -49,6 +49,8 @@ export const ImgProduct = styled.div`
 
   img {
     width: 80%;
+    height: 100%;
+    object-fit: cover;
   }
 
   @media (max-width: 1000px) {
@@ -67,7 +69,7 @@ export const TittleProduct = styled.h1`
 
   @media (max-width: 1000px) {
     top: 55%;
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 `
 
@@ -86,4 +88,24 @@ export const ButtonProduct = styled.button`
     bottom: 10%;
     font-size: 1.4rem;
   }
+`
+
+export const ArrowLeft = styled.button`
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  font-size: 4rem;
+  background-color: transparent;
+  border: none;
+  color: #D98046;
+`
+
+export const ArrowRight = styled.button`
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  font-size: 4rem;
+  background-color: transparent;
+  border: none;
+  color: #D98046;
 `
