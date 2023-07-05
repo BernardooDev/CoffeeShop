@@ -7,6 +7,11 @@ export const AboutSection = styled.section`
     justify-content: center;
     align-items: center;
     background-color: #0C0F14;
+
+    @media (max-width: 800px) {
+        flex-direction: column;
+        overflow-y: scroll;
+    }
 `
 
 export const LeftSection = styled.aside`
@@ -16,6 +21,11 @@ export const LeftSection = styled.aside`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    @media (max-width: 800px) {
+        height: 100%;
+        width: 100%
+    }
 `
 
 export const MainTitleLeft = styled.div`
@@ -28,16 +38,35 @@ export const MainTitleLeft = styled.div`
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 1rem;
 
+    @media (max-width: 800px) {
+        height: 80%;
+        margin: 0;
+    }
+
     h1 {
         margin: 1.5rem;
+        padding-left: 1rem;
         font-size: 2.0rem;
         color: wheat;
+
+        @media (max-width: 800px) {
+            font-size: 1.4rem;
+            padding-left: 0.5rem;
+            margin: 0.6rem;
+        }
     }
 
     p {
         margin: 1.5rem;
+        padding-left: 1rem;
         font-size: 1.4rem;
         color: whitesmoke;
+
+        @media (max-width: 800px) {
+            font-size: 1.0rem;
+            margin: 0.6rem;
+            padding-left: 0.5rem;
+        }
     }
 `
 
@@ -47,6 +76,10 @@ export const BellowTitleLeft = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 800px) {
+        height: 20%;
+    }
 `
 
 export const SeeMoreButton = styled.button`
@@ -58,6 +91,11 @@ export const SeeMoreButton = styled.button`
     font-size: 1.6rem;
     background-color: #D98046;
     color: whitesmoke;
+
+    @media (max-width: 800px) {
+        height: 50%;
+        width: 50%;
+    }
 `
 export const InfosAboutLeft = styled.div`
     width: 100%;
@@ -65,6 +103,10 @@ export const InfosAboutLeft = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 800px) {
+        height: 40%;
+    }
 `
 
 export const DataAboutLeft = styled.div`
@@ -86,6 +128,10 @@ export const SingleDataAboutLeft = styled.div`
     h1 {
         font-size: 3rem;
         color: whitesmoke;
+
+        @media (max-width: 800px) {
+            font-size: 1.6rem;
+        }
     }
 
     span {
@@ -95,6 +141,10 @@ export const SingleDataAboutLeft = styled.div`
     p {
         font-size: 2rem;
         color: wheat;
+
+        @media (max-width: 800px) {
+            font-size: 0.8rem;
+        }
     }
 `
 
@@ -105,6 +155,11 @@ export const RightSection = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    @media (max-width: 1000px) {
+        height: 20%;
+        width: 40%;
+    }
 `
 
 export const ImageRight = styled.div`
@@ -119,6 +174,15 @@ export const ImageRight = styled.div`
         width: 50%;
         height: 60%;
     }
+
+    @media (max-width: 800px) {
+        height: 100%;
+
+        img {
+            height: 50%;
+            width: 50%;
+        }
+    }
 `
 
 export const DetailsImageRight = styled.div`
@@ -126,5 +190,9 @@ export const DetailsImageRight = styled.div`
     height: 25%;
     border-radius: 5px;
     background: linear-gradient(90deg, rgba(217,128,70,1) 0%, rgba(172,99,51,1) 100%);
+
+    @media (max-width: 800px) {
+        display: none;
+    }
 `
 
