@@ -8,8 +8,11 @@ import {
   LeftSection,
   MainTitleLeft,
   RightSection,
+  SeeMoreButton,
   SingleDataAboutLeft,
 } from "./Style";
+
+import Bottle from "../../assets/Bottle.png"
 
 function AboutPage() {
   return (
@@ -29,18 +32,27 @@ function AboutPage() {
           </p>
         </MainTitleLeft>
         <BellowTitleLeft>
-
+          <SeeMoreButton>Discover More</SeeMoreButton>
         </BellowTitleLeft>
         <InfosAboutLeft>
             <DataAboutLeft>
-            <SingleDataAboutLeft></SingleDataAboutLeft>
-            <SingleDataAboutLeft></SingleDataAboutLeft>
-            <SingleDataAboutLeft></SingleDataAboutLeft>
+            <SingleDataAboutLeft>
+              <h1>1.00M<span>+</span></h1>
+              <p>Clients</p>
+              </SingleDataAboutLeft>
+            <SingleDataAboutLeft>
+              <h1>21<span>+</span></h1>
+              <p>Countries</p>
+            </SingleDataAboutLeft>
+            <SingleDataAboutLeft>
+              <h1>40<span>+</span></h1>
+              <p>Products</p>
+            </SingleDataAboutLeft>
             </DataAboutLeft>
         </InfosAboutLeft>
       </LeftSection>
       <RightSection>
-        <ImageRight />
+        <ImageRight><img src={Bottle}/></ImageRight>
         <DetailsImageRight></DetailsImageRight>
       </RightSection>
     </AboutSection>
