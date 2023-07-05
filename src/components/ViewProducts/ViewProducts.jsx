@@ -5,6 +5,9 @@ import {
   TittleProduct,
   ButtonProduct,
 } from "./Style";
+
+import { VscChromeClose } from "react-icons/vsc";
+
 import { useParams, useNavigate } from "react-router-dom";
 import { useQuery } from "react-query";
 
@@ -26,16 +29,16 @@ export default function viewProducts() {
 
   return (
     <ViewProducts>
-      <button
-        onClick={() => {
-          navigate("/menu");
-        }}
-      >
-        X
-      </button>
       <DisplayProduct>
+        <VscChromeClose
+          onClick={() => {
+            navigate("/menu");
+          }}
+        >
+          X
+        </VscChromeClose>
         <ImgProduct>
-        <img src={data?.url}/>
+          <img src={data?.url} />
         </ImgProduct>
         <TittleProduct>{data?.title}</TittleProduct>
         <ButtonProduct style={{ width: "50%" }}>{data?.preco}</ButtonProduct>
