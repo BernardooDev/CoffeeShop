@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Footer = styled.footer`
   width: 100%;
-  height: 25%;
+  height: 30%;
   border-top: 2px solid wheat;
   text-align: center;
   display: flex;
@@ -21,7 +21,7 @@ export const TittleFooter = styled.h1`
 
 export const DescriptionFooter = styled.div`
   width: 50%;
-  height: 20%;
+  height: 10%;
   color: wheat;
 
   a {

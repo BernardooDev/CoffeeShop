@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "start": "node server.js",
+    "start": "nodemon server.js",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -31,7 +31,7 @@
     "nodemon": "^2.0.22",
     "vite": "^4.3.9"
   },
-  "main": "server/server.js",
+  "main": "server.js",
   "keywords": [],
   "author": "",
   "license": "ISC",

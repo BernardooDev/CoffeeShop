@@ -18,6 +18,17 @@ const coffee = [
 ];
 
 
+const comments = [
+  { id: 1, title:"Delicious!, the best for me", name:"Jow Snow", photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzBsLTICrk_IrgZKR1Esb1iYftOGhw7FHRHg&usqp=CAU"},
+  { id: 2, title:"Wonderful, I order every day", name:"Michael Scott", photo: "https://s2.glbimg.com/-9lG_NCCu26MsBAWtrWHr5Cl7Ag=/620x413/smart/e.glbimg.com/og/ed/f/original/2017/12/19/michael-scott-the-office.png"},
+  { id: 3, title:"The number 1 for me!", name:"Dwight schrute", photo: "https://akns-images.eonline.com/eol_images/Entire_Site/2020017/rs_1024x759-200117120856-1024-The-Office-Stress-Relief-2.jpg?fit=around%7C776:576&output-quality=90&crop=776:576;center,top"}
+]
+
+
+app.get("/comments", (req, res) => {
+  res.json(comments)
+})
+
 app.get("/coffee", (req, res) => {
   res.json(coffee);
 });

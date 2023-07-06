@@ -3,6 +3,7 @@ import Section  from "../components/Section/Section";
 import OrderNow from "../components/OrderNow/OrderNow";
 import Footer from "../components/Footer/Footer"
 import ShowProducts  from "../components/OurProducts/OurProducts";
+import Comments from "../components/Comments/Comments";
 
 export const Home = () => {
   return (
@@ -12,6 +13,7 @@ export const Home = () => {
       <OrderNow>
       </OrderNow>
       <ShowProducts />
+      <Comments />
       <Footer />
     </>
   );

@@ -66,6 +66,7 @@ export const ButtonProducts = styled.button`
     width: 50%;
     height: 12%;
     position: absolute;
+    font-weight: bold;
     bottom: 6%;
     border: none;
     border-radius: 5px; 
