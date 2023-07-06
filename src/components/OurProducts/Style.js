@@ -10,7 +10,7 @@ export const ShowProducts = styled.div`
     background-color: #0C0F14;
 
     h1 {
-        color: wheat;
+        color: #D98046;
     }
 `
 
