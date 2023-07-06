@@ -98,6 +98,9 @@ export const FeedbackComments = styled.div`
     border: 1px solid wheat;
     border-radius: 5px;
     position: absolute;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
     top: 35%;
     left: 20%;
     
