@@ -2,20 +2,13 @@ import styled from "styled-components";
 
 export const ContactPage = styled.main`
   width: 100%;
-  height: 100%;
+  height: 110%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #0C0F14;
-`;
-
-export const ContactUsTitle = styled.h1`
-  font-size: 2rem;
-  margin: 1rem 0;
-  font-weight: 600;
-  color: #D98046;
 `;
 
 export const ContactUsP = styled.p`
@@ -31,7 +24,7 @@ export const ContainerAboutContact = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 `;
 
 export const ContainerLeft = styled.div`
@@ -179,7 +172,7 @@ export const SingleInputRadio = styled.div`
 
 export const SendMessageRight = styled.div`
   width: 100%;
-  height: 38%;
+  height: 40%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -187,7 +180,8 @@ export const SendMessageRight = styled.div`
 
   textarea {
     width: 80%;
-    height: 70%;
+    height: 60%;
+    padding: 0.5rem;
     background-color: transparent;
     border: 1px solid;
     outline: none;

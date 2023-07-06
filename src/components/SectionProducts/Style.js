@@ -5,7 +5,7 @@ export const SectionProducts = styled.section`
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
-  height: 100%;
+  height: 120%;
   background-color: #0C0F14;
 
   @media (max-width: 1000px) {

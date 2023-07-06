@@ -2,7 +2,6 @@ import {
   ContactInformationLeft,
   ContactPage,
   ContactUsP,
-  ContactUsTitle,
   ContainerAboutContact,
   ContainerLeft,
   ContainerRight,
@@ -23,6 +22,7 @@ import { BsInstagram, BsTwitter, BsDiscord } from "react-icons/bs";
 import { ImPhone } from "react-icons/im";
 import { TfiEmail } from "react-icons/tfi";
 import { TbLocation } from "react-icons/tb";
+import { Title } from "../Title/Style";
 
 function Contact() {
   const HandleButton = (e) => {
@@ -30,7 +30,7 @@ function Contact() {
   };
   return (
     <ContactPage>
-      <ContactUsTitle>Contact Us</ContactUsTitle>
+      <Title>Contact Us</Title>
       <ContactUsP>
         Any question or remarks? Just write for us a message!
       </ContactUsP>
@@ -63,7 +63,7 @@ function Contact() {
           </InsideContainerLeft>
         </ContainerLeft>
         <ContainerRight>
-          <InsideContainerRight>
+          <InsideContainerRight method="POST" action="/contact">
             <FormContainerRight>
               <FormContainer>
                 <SingleInput>

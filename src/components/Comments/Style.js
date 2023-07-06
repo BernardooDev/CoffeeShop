@@ -55,7 +55,7 @@ export const PhotoComments = styled.div`
     border: 2px solid wheat;
    
     @media (min-width: 320px) and (max-width: 480px) {
-        width: 20%;
+        width: 18%;
         height: 40%;
     }   
 
@@ -64,6 +64,13 @@ export const PhotoComments = styled.div`
         height: 40%;
         left: 10%;
     }   
+
+    @media (min-width:1025px) and (max-width:1200px) {
+        left: 0%;
+        top: 0;
+        height: 50%;
+        width: 15%;
+    }
 
     img {
         width: 100%;
