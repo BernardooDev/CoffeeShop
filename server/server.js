@@ -1,12 +1,12 @@
 import express from "express";
 import cors from "cors";
+import path from "path";
 
 const app = express();
-
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static('public'))
+app.use(express.static(path.join(__dirname, "../server/public")));
 
 const coffee = [
   { id: 1, title: "Café com Leite", preco: "R$ 5,00", url: "https://images.unsplash.com/photo-1615486780246-76e6bb33e8b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80" },
