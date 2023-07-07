@@ -53,7 +53,7 @@ function AboutPage() {
       </LeftSection>
       <RightSection>
         <ImageRight><img src={Bottle}/></ImageRight>
-        <DetailsImageRight></DetailsImageRight>
+        <DetailsImageRight><p>Special Offer</p><h1>Discount 10%</h1></DetailsImageRight>
       </RightSection>
     </AboutSection>
   );
