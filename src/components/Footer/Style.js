@@ -44,7 +44,7 @@ export const SocialMedias = styled.div`
 
   svg {
     width: 20%;
-    height: 100%;
+    height: 60%;
     color: wheat;
   }
 

@@ -45,12 +45,14 @@ export const InsideContainerLeft = styled.div`
     font-size: 1.6rem;
     font-weight: bold;
     margin-left: 0.5rem;
+    color: #D98046;
   }
 
   p {
     margin-top: 0.4rem;
     font-size: 1.2rem;
     margin-left: 0.5rem;
+    color: wheat;
   }
 `;
 
@@ -66,6 +68,7 @@ export const DataAboutInformationLeft = styled.div`
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  color: wheat;
 `
 
 export const SingleDataAboutInformation = styled.div`
@@ -92,6 +95,7 @@ export const SocialMediasInformationLeft = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
+  color: wheat;
 
   svg {
     width: 33%;
@@ -164,6 +168,7 @@ export const SingleInputRadio = styled.div`
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
+  accent-color: orange;
 
   label {
     font-size: 0.9rem;
@@ -190,8 +195,9 @@ export const SendMessageRight = styled.div`
   button {
     width: 20%;
     height: 20%;
-    background-color: black;
+    background-color: #D98046;
     color: whitesmoke;
     border: none;
+    font-weight: bold;
   }
 `
