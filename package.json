@@ -33,7 +33,7 @@
     "nodemon": "^2.0.22",
     "vite": "^4.3.9"
   },
-  "main": "index.js",
+  "main": "server.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
